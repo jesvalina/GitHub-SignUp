@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitHub</title>
+
+    <style>
+
+    .div1{
+        margin:auto;
+        width:290px;
+        border:1px solid lightgrey;
+        border-radius:7px;
+        padding: 10px;       
+    }
+
+    label{
+        font-family: Calibri;
+        font-size: 15px;
+        color:rgba(211, 211, 211, 0.753);
+        line-height:2;
+    }
+    
+    .in{
+        font-family: Calibri;
+        font-size:18px;
+        color:black;
+        padding:10px;
+        height: 20px;
+        width: 260px;
+        border:1px solid lightgrey;
+        border-radius: 5px;
+
+    }
+     ::placeholder {
+            color: lightgrey;
+        }
+
+    .text2{
+        font-family: Calibri;
+        font-size:14px;
+        color:darkgrey;
+        text-align: center;
+    }
+    .text3{
+        font-family: Calibri;
+        font-size:14px;
+        color:darkgrey;
+        text-align: justify;
+    }
+    a{
+        text-decoration: none;
+        color:blue;
+    }
+    
+    button{
+        width:280px;
+        height: 70px;
+        border: 0px;
+        border-radius: 5px;
+        background-color:rgb(52, 173, 52);
+        font-family:Calibri;
+        font-size:18px;
+        font-weight: bold;
+        color:white;
+        cursor:pointer;
+
+    }
+   
+    </style>
+
+</head>
+<body>
+    <div class="div1">
+    
+        <form action="https://github.com/join">
+            <label> Username </label>
+            <input class="in" type="text" name="username" placeholder="Pick a username"> <br>
+
+            <label> Email </label>
+            <input class="in" type="text" name="email" placeholder="you@example.com"> <br>
+
+            <label> Password </label>
+            <input class="in" type="password" name="password" placeholder="Create a password"> <br>
+        
+            <p class="text3"> Make sure it's more than 15 characters, or at least <br> 
+                8 characters, including a number and a lowercase <br>
+                letter.
+            </p>
+
+            <button> Sign up for GitHub </button>
+            
+            <p class="text2">
+             By clicking "Sign up for GitHub", you agree to our <br>
+            <a href="https://help.github.com/articles/github-terms-of-service/"> terms of service</a>
+            and 
+            <a href="https://help.github.com/articles/github-privacy-statement/"> privacy statement.</a>
+            We'll <br> occasionally send you account related emails.
+            </p>
+
+         </form>  
+
+    </div>
+    
+</body>
+</html>
